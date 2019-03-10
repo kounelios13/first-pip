@@ -25,7 +25,7 @@ setup(
     include_package_data=True,
     entry_points={
         "console_scripts": [
-            "traveller=reader.__main__:main",
+            "traveller=traveller.__main__:main",
         ]
     },
 )
